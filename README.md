@@ -11,29 +11,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#interaction-diagram">Interaction Diagram</a></li>
-    <li><a href="#uml-class-diagram">UML Class Diagram</a></li>
+    <li><a href="#diagram">Interaction Diagram</a></li>
     <li><a href="#test-reports">Test Reports</a></li>
-    <li><a href="#build-and-run">Build and Run</a></li>
-  </ol>
-</details>
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#database-setup">Database Setup</a></li>
-    <li><a href="#environment-configuration">Environment Configuration</a></li>
-    <li><a href="#build-and-run">Build And Run</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#design-patterns-and-tools">Design Patterns and Tools</a></li>
   </ol>
 </details>
 
@@ -70,3 +49,14 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/vinhwin1810/kami.git
    cd kami
+   ./gradlew build
+   ./gradlew run
+   ```
+#### Diagrams
+For Interaction and UML Diagram, take a look at the folder in source code
+
+#### Test reports
+Unit and integration tests ensure correctness and stability.
+	•	Framework: JUnit 5
+	•	Coverage: 90%+ of core game logic covered
+
