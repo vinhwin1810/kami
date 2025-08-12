@@ -11,7 +11,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#diagram">Interaction Diagram</a></li>
+    <li><a href="#diagrams">Diagrams</a></li>
     <li><a href="#test-reports">Test Reports</a></li>
   </ol>
 </details>
